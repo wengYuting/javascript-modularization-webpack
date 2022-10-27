@@ -1,0 +1,33 @@
+{
+  "name": "javascript-modularization",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ItsTiffanyChen/javascript-modularization.git",
+  "author": "wengYuting <wengyuting3@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@squoosh/lib": "^0.4.0",
+    "@types/lodash": "^4.14.186",
+    "image-minimizer-webpack-plugin": "^3.7.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development",
+    "watch": "webpack --watch --mode=development",
+    "serve": "webpack serve --mode=development"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.1",
+    "svgo": "^3.0.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

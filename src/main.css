@@ -1,0 +1,15 @@
+body{
+  padding: 2rem;
+  text-align: center;
+  background: #122;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p{
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #efe;
+}
